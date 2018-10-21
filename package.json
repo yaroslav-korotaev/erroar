@@ -1,0 +1,24 @@
+{
+  "name": "erroar",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "bugs": "https://github.com/yaroslav-korotaev/erroar/issues",
+  "license": "MIT",
+  "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "files": [
+    "lib"
+  ],
+  "repository": "yaroslav-korotaev/erroar",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "tslint-config-hurp": "^1.0.0",
+    "typescript": "^2.9.2"
+  }
+}
