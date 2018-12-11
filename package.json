@@ -1,9 +1,13 @@
 {
-  "name": "template-node-library",
-  "version": "0.0.0",
-  "description": "Node library template",
-  "keywords": [],
-  "bugs": "https://github.com/yaroslav-korotaev/template-node-library/issues",
+  "name": "erroar",
+  "version": "1.0.0",
+  "description": "Error helper class and common factories",
+  "keywords": [
+    "hurp",
+    "error",
+    "erroar"
+  ],
+  "bugs": "https://github.com/yaroslav-korotaev/erroar/issues",
   "license": "MIT",
   "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
   "files": [
@@ -11,7 +15,7 @@
   ],
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "repository": "yaroslav-korotaev/template-node-library",
+  "repository": "yaroslav-korotaev/erroar",
   "scripts": {
     "lint:src": "tslint -c tslint.json -p tsconfig.json -t stylish",
     "prelint:test": "tsc -p tsconfig.test.json",

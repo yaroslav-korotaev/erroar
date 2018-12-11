@@ -1,3 +1,3 @@
-# template-node-library
+# erroar
 
-Node library template.
+Error helper class and common factories.
