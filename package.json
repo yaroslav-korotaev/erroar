@@ -1,31 +1,23 @@
 {
   "name": "erroar",
-  "version": "1.0.1",
-  "description": "Error helper class and common factories",
-  "keywords": [
-    "hurp",
-    "error",
-    "erroar"
-  ],
+  "version": "2.0.0",
+  "description": "",
+  "keywords": [],
   "bugs": "https://github.com/yaroslav-korotaev/erroar/issues",
   "license": "MIT",
   "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": "yaroslav-korotaev/erroar",
   "scripts": {
-    "build": "tsc",
-    "test": "jest -c jest.config.json"
+    "build": "tsc"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@types/jest": "^25.1.4",
-    "@types/node": "^13.9.5",
-    "jest": "^25.2.3",
-    "ts-jest": "^25.2.1",
-    "typescript": "^3.8.3"
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
   }
 }
